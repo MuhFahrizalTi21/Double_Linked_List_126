@@ -191,6 +191,12 @@ namespace Double_Linked_List
                                 obj.ascending();
                             }
                             break;
+                        case '4':
+                            {
+                                obj.descending();
+                            }
+                            break;
+                      
 
                     }
                 }
