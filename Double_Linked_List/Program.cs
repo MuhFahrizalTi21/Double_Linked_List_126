@@ -13,6 +13,7 @@ namespace Double_Linked_List
         * its succeeding and preceeding
         * in term of next and previous*/
         public int noMhs;
+        public string name;
     }
     internal class Program
     {
