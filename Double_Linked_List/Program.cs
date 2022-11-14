@@ -125,6 +125,10 @@ namespace Double_Linked_List
                     Console.Write(currentNode.noMhs + " " + currentNode.name + "\n");
             }
         }
+        public void descending()
+        {
+
+        }
 
     }
     internal class Program
