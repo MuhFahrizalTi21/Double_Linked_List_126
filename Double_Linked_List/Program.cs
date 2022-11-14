@@ -145,9 +145,9 @@ namespace Double_Linked_List
     }
     class Program
     {
-        DoubleLinkedList obj = new DoubleLinkedList();
         static void Main(string[] args)
         {
+            DoubleLinkedList obj = new DoubleLinkedList();
         }
     }
 }
