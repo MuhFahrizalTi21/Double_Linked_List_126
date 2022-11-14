@@ -77,7 +77,9 @@ namespace Double_Linked_List
             //if the node is to be inserted at the end of the list
             if(current == null )
             {
-
+                newNode.next = null;
+                previous.next = newNode;
+                return ;
             }
         }
 
