@@ -61,7 +61,10 @@ namespace Double_Linked_List
             Node previous, current;
             for (current = previous = START; current != null && nim >= current.noMhs; previous = current, current = current.next)
             {
+                if (nim == current.noMhs)
+                {
 
+                }
             }
         }
 
