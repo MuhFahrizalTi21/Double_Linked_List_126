@@ -67,6 +67,12 @@ namespace Double_Linked_List
                     return;
                 }
             }
+
+            /* On the execution of the above for loop, prev and
+             * * current will point the those nodes
+             * * between wich the new node is to be inserted*/
+            newNode.next = current;
+            newNode.prev = previous;
         }
 
     }
