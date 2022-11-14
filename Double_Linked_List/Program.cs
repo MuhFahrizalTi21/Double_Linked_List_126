@@ -57,6 +57,8 @@ namespace Double_Linked_List
                 START = newNode;
                 return;
             }
+            //check if the node is to be inserted at between two node
+            Node previous, current;
         }
 
     }
