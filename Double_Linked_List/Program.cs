@@ -113,6 +113,10 @@ namespace Double_Linked_List
             else 
                 return false;
         }
+        public void ascending()
+        {
+            
+        }
 
     }
     internal class Program
