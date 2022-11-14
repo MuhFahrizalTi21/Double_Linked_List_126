@@ -110,6 +110,8 @@ namespace Double_Linked_List
         {
             if (START == null )
                 return false;
+            else 
+                return false;
         }
 
     }
