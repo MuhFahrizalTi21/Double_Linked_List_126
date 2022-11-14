@@ -47,7 +47,8 @@ namespace Double_Linked_List
             {
                 if((START != null) && (nim == START.noMhs))
                 {
-
+                    Console.WriteLine("\nDuplicate number not allowed");
+                    return;
                 }
             }
         }
