@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 
 namespace Double_Linked_List
 {
@@ -40,6 +41,12 @@ namespace Double_Linked_List
             Console.Write("Enter the name of the student: ");
             nm = Console.ReadLine();
             newNode.name = nm;
+
+            //Check if the list empty
+            if(START == null || nim <= START.noMhs)
+            {
+
+            }
         }
 
     }
