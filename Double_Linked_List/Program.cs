@@ -73,6 +73,12 @@ namespace Double_Linked_List
              * * between wich the new node is to be inserted*/
             newNode.next = current;
             newNode.prev = previous;
+
+            //if the node is to be inserted at the end of the list
+            if(current == null )
+            {
+
+            }
         }
 
     }
