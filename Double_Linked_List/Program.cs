@@ -63,7 +63,8 @@ namespace Double_Linked_List
             {
                 if (nim == current.noMhs)
                 {
-
+                    Console.WriteLine("\nDuplicate roll number not allowed");
+                    return;
                 }
             }
         }
