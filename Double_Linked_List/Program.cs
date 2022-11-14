@@ -132,6 +132,7 @@ namespace Double_Linked_List
             else
             {
                 Console.WriteLine("\nRecord in the descending order of" + "roll number are : \n");
+                Node currentNode;
             }
         }
 
