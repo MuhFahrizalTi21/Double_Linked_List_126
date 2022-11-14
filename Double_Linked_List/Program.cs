@@ -94,6 +94,8 @@ namespace Double_Linked_List
         {
             Node previous, current;
             previous = current = null;
+            if(search (rollNo, ref previous, ref current)== false)
+                return false;
         }
 
     }
