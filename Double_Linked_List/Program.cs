@@ -102,6 +102,9 @@ namespace Double_Linked_List
                 previous.next = null;
                 return true;
             }
+            previous.next = current.next;
+            current.next.prev = previous;
+            return true;
         }
 
     }
