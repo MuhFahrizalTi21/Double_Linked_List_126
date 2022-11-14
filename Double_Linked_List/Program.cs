@@ -115,7 +115,8 @@ namespace Double_Linked_List
         }
         public void ascending()
         {
-            
+            if (listEmpty())
+                Console.WriteLine("\nList is empty");
         }
 
     }
