@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +21,9 @@ namespace Double_Linked_List
         //pointto the precceeding node 
         public Node prev;
     }
-    //constructor
     class DoubleLinkedList
     {
+        Node START;
 
     }
     internal class Program
