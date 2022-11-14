@@ -157,6 +157,7 @@ namespace Double_Linked_List
                     Console.WriteLine("2. Delete a record from the list ");
                     Console.WriteLine("3. View all records in the ascending order of roll numbers ");
                     Console.WriteLine("4. View all records in the descending order of roll numbers ");
+                    Console.WriteLine("5. Search for a record in the list");
                 }
             }
         }
