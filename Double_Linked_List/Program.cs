@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Double_Linked_List
 {
-    clas
+    class Node
+    {
+
+    }
     internal class Program
     {
         static void Main(string[] args)
