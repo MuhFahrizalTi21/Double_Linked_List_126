@@ -148,6 +148,10 @@ namespace Double_Linked_List
         static void Main(string[] args)
         {
             DoubleLinkedList obj = new DoubleLinkedList();
+            while(true)
+            {
+             
+            }
         }
     }
 }
