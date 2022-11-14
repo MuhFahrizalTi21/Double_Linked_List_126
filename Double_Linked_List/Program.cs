@@ -24,6 +24,11 @@ namespace Double_Linked_List
     class DoubleLinkedList
     {
         Node START;
+        //constructor
+        public DoubleLinkedList()
+        {
+
+        }
 
     }
     internal class Program
