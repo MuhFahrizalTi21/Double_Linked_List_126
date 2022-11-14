@@ -51,6 +51,10 @@ namespace Double_Linked_List
                     return;
                 }
                 newNode.next = START;
+                if(START != null)
+                {
+                   
+                }
             }
         }
 
