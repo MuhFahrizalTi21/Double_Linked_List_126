@@ -117,6 +117,10 @@ namespace Double_Linked_List
         {
             if (listEmpty())
                 Console.WriteLine("\nList is empty");
+            else
+            {
+               
+            }
         }
 
     }
