@@ -182,6 +182,8 @@ namespace Double_Linked_List
                                 Console.WriteLine("");
                                 if (obj.dellNode(rollNo) == false)
                                     Console.WriteLine("Record not found");
+                                else 
+                                    Console.WriteLine("Record with roll number" + rollNo + "deleted\n");
                             }
                             break;
                     }
