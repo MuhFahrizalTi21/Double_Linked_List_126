@@ -152,7 +152,7 @@ namespace Double_Linked_List
             {
                 try
                 {
-
+                    Console.WriteLine("\nMenu");
                 }
             }
         }
