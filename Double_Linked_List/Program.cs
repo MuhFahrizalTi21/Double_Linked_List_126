@@ -169,6 +169,11 @@ namespace Double_Linked_List
                                 obj.addNode();
                             }
                             break;
+                        case '2':
+                            {
+                               
+                            }
+                            break;
                     }
                 }
             }
