@@ -164,7 +164,11 @@ namespace Double_Linked_List
 
                     switch (ch)
                     {
-                        
+                        case '1':
+                            {
+                                obj.addNode();
+                            }
+                            break;
                     }
                 }
             }
