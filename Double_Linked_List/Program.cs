@@ -38,6 +38,7 @@ namespace Double_Linked_List
             Node newNode = new Node();
             newNode.noMhs = nim;
             Console.Write("Enter the name of the student: ");
+            nm = Console.ReadLine();
             newNode.name = nm;
         }
 
