@@ -29,6 +29,10 @@ namespace Double_Linked_List
         {
             START = null;
         }
+        public void addNode()
+        {
+
+        }
 
     }
     internal class Program
