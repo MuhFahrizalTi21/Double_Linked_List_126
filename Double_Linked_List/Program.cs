@@ -176,6 +176,8 @@ namespace Double_Linked_List
                                     Console.WriteLine("\nList is empty");
                                     break;
                                 }
+                                Console.Write("\nEnter the roll number of the student" + 
+                                    " whose record is to be deleted: ");
                             }
                             break;
                     }
