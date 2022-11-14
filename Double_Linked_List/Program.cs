@@ -34,6 +34,7 @@ namespace Double_Linked_List
             int nim;
             string nm;
             Console.Write("Enter the roll number of the student: ");
+            nim = Convert.ToInt32(Console.ReadLine());
         }
 
     }
