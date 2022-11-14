@@ -27,7 +27,7 @@ namespace Double_Linked_List
         //constructor
         public DoubleLinkedList()
         {
-
+            START = null;
         }
 
     }
