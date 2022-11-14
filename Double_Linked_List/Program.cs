@@ -99,7 +99,8 @@ namespace Double_Linked_List
             //The begining of data 
             if(current.next == null)
             {
-
+                previous.next = null;
+                return true;
             }
         }
 
