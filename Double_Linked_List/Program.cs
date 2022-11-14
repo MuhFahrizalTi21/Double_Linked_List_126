@@ -90,6 +90,11 @@ namespace Double_Linked_List
                 rollNo!= current.noMhs; previous = current, current = current.next) { }
             return (current != null);
         }
+        public bool dellNode(int rollNo)
+        {
+            Node previous, current;
+            previous = current = null;
+        }
 
     }
     internal class Program
