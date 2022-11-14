@@ -131,7 +131,7 @@ namespace Double_Linked_List
                 Console.WriteLine("\nList is empty");
             else
             {
-
+                Console.WriteLine("\nRecord in the descending order of" + "roll number are : \n");
             }
         }
 
