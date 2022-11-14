@@ -96,6 +96,11 @@ namespace Double_Linked_List
             previous = current = null;
             if(search (rollNo, ref previous, ref current)== false)
                 return false;
+            //The begining of data 
+            if(current.next == null)
+            {
+
+            }
         }
 
     }
