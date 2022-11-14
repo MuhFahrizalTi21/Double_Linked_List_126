@@ -45,7 +45,10 @@ namespace Double_Linked_List
             //Check if the list empty
             if(START == null || nim <= START.noMhs)
             {
+                if((START != null) && (nim == START.noMhs))
+                {
 
+                }
             }
         }
 
