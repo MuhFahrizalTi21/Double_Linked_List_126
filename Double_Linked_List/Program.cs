@@ -180,6 +180,8 @@ namespace Double_Linked_List
                                     " whose record is to be deleted: ");
                                 int rollNo = Convert.ToInt32(Console.ReadLine());
                                 Console.WriteLine("");
+                                if (obj.dellNode(rollNo) == false)
+                                    Console.WriteLine("Record not found");
                             }
                             break;
                     }
