@@ -108,7 +108,8 @@ namespace Double_Linked_List
         }
         public bool listEmpty()
         {
-
+            if (START == null )
+                return false;
         }
 
     }
