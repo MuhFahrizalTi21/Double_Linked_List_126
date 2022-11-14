@@ -81,6 +81,8 @@ namespace Double_Linked_List
                 previous.next = newNode;
                 return ;
             }
+            current.prev = newNode;
+            previous.prev = newNode;
         }
 
     }
