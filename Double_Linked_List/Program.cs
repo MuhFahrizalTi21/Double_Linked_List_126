@@ -153,6 +153,7 @@ namespace Double_Linked_List
                 try
                 {
                     Console.WriteLine("\nMenu");
+                    Console.WriteLine("1. Add a record to the list");
                 }
             }
         }
