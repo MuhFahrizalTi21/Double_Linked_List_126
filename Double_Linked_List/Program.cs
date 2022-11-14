@@ -133,6 +133,7 @@ namespace Double_Linked_List
             {
                 Console.WriteLine("\nRecord in the descending order of" + "roll number are : \n");
                 Node currentNode;
+                for (currentNode = START; currentNode != null; currentNode = currentNode.next) { }
             }
         }
 
