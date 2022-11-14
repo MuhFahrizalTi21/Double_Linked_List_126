@@ -14,6 +14,8 @@ namespace Double_Linked_List
         * in term of next and previous*/
         public int noMhs;
         public string name;
+        //point to the succeding node 
+        public Node next;
     }
     internal class Program
     {
