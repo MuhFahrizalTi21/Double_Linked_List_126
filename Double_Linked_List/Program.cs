@@ -50,6 +50,7 @@ namespace Double_Linked_List
                     Console.WriteLine("\nDuplicate number not allowed");
                     return;
                 }
+                newNode.next = START;
             }
         }
 
